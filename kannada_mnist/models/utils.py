@@ -2,7 +2,6 @@ import torch
 import torch.nn.functional as F
 import torch.nn as nn
 import pandas as pd
-from loguru import logger
 from tqdm import tqdm
 
 

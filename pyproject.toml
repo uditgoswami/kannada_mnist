@@ -19,6 +19,7 @@ jupyter = "^1.0"
 
 [tool.poetry.scripts]
 train = "kannada_mnist.models.train:main"
+evaluate = "kannada_mnist.models.eval:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
